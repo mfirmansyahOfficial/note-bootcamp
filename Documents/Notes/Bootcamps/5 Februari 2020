@@ -47,7 +47,16 @@ Git : Tempat penyimpanan berbasis tim
 	- pindah ke brench yang ingin di merge
 	- "git merge nama_branch_yang_akan_diambil_untuk_merge"
 
+ 14. Git Reset: kembali ke commit sebelumnya dengan menghapus catatan commit yang dilakukan setelahnya
+	- "git reset [commit_hash]" ada tiga macam reset :
+		1. git reset --soft [commit hash] : mengembalikan file dengan kondisi staged
+		2. git reset --mixed [commit hash] : untuk mengembalikan file dengan kondisi dimodifikasi/modified
+		3. git reset --hard [commit hash] : mengembalikan file dengan kondisi commmited
+	- rovert : kembali ke commit seblumnya tanpa menghapus catatan setelahnya
+		1. git revert [commit hash]
+
 
 
  * Perbedaan Github dan Gitlab :
 	- Gitlab yang join unlimited | sedangkan Github terbatas (5 orang) - free
+	- cara melihat commit_hash menggunakan "git log"
