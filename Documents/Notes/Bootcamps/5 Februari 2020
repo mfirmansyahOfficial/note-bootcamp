@@ -37,5 +37,8 @@ Git : Tempat penyimpanan berbasis tim
  10. Cara cepat membuat branch baru
 	- "git checkout -b nama_branch_baru" -> membuat sekaligus pindah ke branch yang baru di buat
 
+ 11. Fungsi Delete
+	- "git branch -d nama_branch" -> untuk menghapus branch
+
  * Perbedaan Github dan Gitlab :
 	- Gitlab yang join unlimited | sedangkan Github terbatas (5 orang) - free
