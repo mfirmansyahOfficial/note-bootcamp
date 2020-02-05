@@ -40,5 +40,14 @@ Git : Tempat penyimpanan berbasis tim
  11. Fungsi Delete
 	- "git branch -d nama_branch" -> untuk menghapus branch
 
+ 12. Git Pull : mengambil commit
+	- "git pull origin nama_branch" harus sama branch
+
+ 13. Git Merge : menggabungkan (langsung menggabungkan semua data setelah didownload)
+	- pindah ke brench yang ingin di merge
+	- "git merge nama_branch_yang_akan_diambil_untuk_merge"
+
+
+
  * Perbedaan Github dan Gitlab :
 	- Gitlab yang join unlimited | sedangkan Github terbatas (5 orang) - free
