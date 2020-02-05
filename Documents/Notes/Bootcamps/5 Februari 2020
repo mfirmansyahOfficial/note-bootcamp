@@ -60,3 +60,6 @@ Git : Tempat penyimpanan berbasis tim
  * Perbedaan Github dan Gitlab :
 	- Gitlab yang join unlimited | sedangkan Github terbatas (5 orang) - free
 	- cara melihat commit_hash menggunakan "git log"
+
+==============================================================================
+
