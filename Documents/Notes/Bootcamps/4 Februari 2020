@@ -1,0 +1,41 @@
+Terminal : menghubungkan dengan file yang akan menghubungkan dengan file yang ada di komputer (seperti browser hanya saja versi lokal)
+	Perintah :
+	- cd : untuk mengakses folder atau keluar
+		- untuk masuk bisa menggunakan "cd /nama_file"
+		- untuk keluar bisa menggunakan "cd .." atau kembali | hanya satu folder
+		- kalau cd doang langsung ke awal "cd" | menuju ke home
+		- bisa langsung ke beberapa folder contoh : "cd /nama_file/nama_file2"
+	- ls : hanya bisa membaca folder | file yang berisi di dalamnya | contoh "ls" maka akan muncul list file yang ada di folder path
+		- "ls nama_folder" otomatis akan menampilkan list file folder tersebut
+	- mkdir : untuk membuat directory atau folder
+		- 'mkdir nama_folder' maka akan terbuat folder dengan nama folder
+	- clear : menghapus command sebelumnya dilayar
+	- touch : membuat file baru
+		- "touch text.txt" - maka akan membuat file dengan ekstensi tersebut
+	- nano : membuat file langsung di cmd
+		- "nano text2.txt" : maka langsung ada nano tinggal langsung saja lihat 
+	- cp : membuat file dengan mengcopy file lama menjadi file baru
+		- "cp 'nama_file_lama' 'nama_file_baru'"
+	- rmdir : menghaful folder namun harus kosong
+		- "rmdir nama_folder" : menghapus folder yang kosong
+	- rm -r : menghapus file dan folder | tergantung pemakaian file atau folder
+		- "rm -r nama_file_atau_folder" : maka file tersebut akan hilang dalam folder tersebut
+	- pwd : memberi tahu folder atau lokasi kita ada dimana
+		- "pwd" : maka akan tampil path yang memberi tahu kita ada dimana
+	- mv : memindahkan ataupun merename | tergantung input dan output
+		- "mv 'text.txt' 'text4.txt'" : berguna untuk mengubah nama file
+
+Command :
+	- "sudo apt-get update" atau "sudo apt update" : untuk mendapatkan components yang terbaru di linux
+	- "sudo apt-get install git" : untuk menginstall
+
+Pemahaman : 
+	- port 300 merupakan server dev rails
+	- untuk install ruby gunakan website ini https://gorails.com/setup/ubuntu/18.04
+	- silahkan ikuti perintah yang terdapat pada website di atas!
+
+
+
+* Catatan :
+	- tff merupakan folder rails
+	- membuat akun di repl.it

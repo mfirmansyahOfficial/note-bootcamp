@@ -1,0 +1,41 @@
+Git : Tempat penyimpanan berbasis tim
+- Github
+- Gitlab
+- Bitbucket
+
+****************************************************************************************
+ 1. Untuk membukanya bisa gunakan "git config" di terminal
+ 2. "git config --list" : untuk melihat daftar user dan email yang digunakan
+	- Jika tidak ada harus buat usernya terlebih dahulu atau ingin mengubahnya lakukan hal yang sama
+		1. "git config --global user.name 'nama_user'"
+		2. "git config --global user.email 'email_user'"
+ 3. Cara buat repo :
+	- pastikan akun telah terpasang (recognized)
+	- membuat repository baru "git init"
+	- mendaftarkan folder pada git "git remote add origin url_repository"
+	- menyalin/mengunduh seluruh folder "git clone url_repository"
+ 4. Mengcommit git
+	- "git commit -m 'first commit'" *-m : message
+	- "git add ." - untuk mengcommit semuanya
+	- "git add nama_folder/nama_file" : untuk file yang lebih spesifik
+	- "git status" untuk melihat status setiap file atau folder | merah berarti belum dicommit | hijau berhasil dicommit
+
+ 5. Memberi pesan
+	- "git commit -m 'membuat repo baru'"
+
+ 6. Meremote
+	- "git remote add origin link"
+
+ 7. push
+	- "git push -u origin master
+ 8. Maka file telah berhasil di upload ke repository git
+ 9. Membuat branch
+	- "git branch nama_branch" - buatkan namanya sesuai dengan modulnya (misal login, crud, modal, dll)
+	- "git branch" menampilkan branch yang tersedia dan terpilih
+	- "git checkout branch "nama_branch_yang_dituju" -> mengganti branch
+
+ 10. Cara cepat membuat branch baru
+	- "git checkout -b nama_branch_baru" -> membuat sekaligus pindah ke branch yang baru di buat
+
+ * Perbedaan Github dan Gitlab :
+	- Gitlab yang join unlimited | sedangkan Github terbatas (5 orang) - free
